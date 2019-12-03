@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM maven:3-jdk-8-alpine
 
 LABEL "com.github.actions.name"="github-action-build"
 LABEL "com.github.actions.description"="Run a repository-specific build-script"
@@ -6,9 +6,8 @@ LABEL "com.github.actions.icon"="settings"
 LABEL "com.github.actions.color"="gray-dark"
 
 LABEL version="1.0.0"
-LABEL repository="http://github.com/skx/github-action-build"
-LABEL homepage="http://github.com/skx/github-action-build"
-LABEL maintainer="Steve Kemp <steve@steve.fi>"
+LABEL repository="http://github.com/mvkvl/github-action-build"
+LABEL homepage="http://github.com/mvkvl/github-action-build"
 
 COPY build /usr/local/bin/build
 
