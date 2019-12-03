@@ -1,4 +1,4 @@
-FROM bitnami/bitnami-docker-java:1.8
+FROM mvkvl/java-fx-maven
 
 LABEL "com.github.actions.name"="github-action-build"
 LABEL "com.github.actions.description"="Run a repository-specific build-script"
