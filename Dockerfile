@@ -1,4 +1,4 @@
-FROM maven:3-jdk-8-alpine
+FROM bitnami/bitnami-docker-java:1.8
 
 LABEL "com.github.actions.name"="github-action-build"
 LABEL "com.github.actions.description"="Run a repository-specific build-script"
